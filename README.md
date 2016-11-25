@@ -14,4 +14,4 @@ Oh and I am danish so there might be a spelling mistake somewhere or something t
 
 I am also new to github so hopefully I wont mess up my very first repository. 
 
-Let me know if you like it or have comments - @jcandresen
+Let me know if you like it or have comments - Tweet at me @jcandresen
