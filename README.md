@@ -1,5 +1,4 @@
 # DailyPowershellScripts
-Just the powershell scripts that I use. All private information has been obfuscated with fake names so you will have to change the variables. I try to put the variables in the top of the board and dynamically grab things when I can. 
 
 Not sure how you got here...
 
