@@ -12,6 +12,6 @@ If you get offended by my terrible scripting, please do let me know of a better 
 
 Oh and I am Danish so there might be a spelling mistake somewhere or something that doesnt make sense. If you see it, please do let me know so I can fix it as well. 
 
-I am also new to github so hopefully I wont mess up my very first repository. 
+I am also new to github so hopefully I wont mess up my first repository. 
 
 Let me know if you like it or have comments - Tweet at me @jcandresen
