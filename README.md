@@ -1,4 +1,4 @@
-# DailyPowershellScripts
+# Scripts
 
 Not sure how you got here...
 
@@ -10,7 +10,7 @@ All scripts has their personal details removed and replaced with either variable
 I try to stay professional with my script comments, but sometimes im just in a good mood and leave something terribly written. 
 If you get offended by my terrible scripting, please do let me know of a better way, as I am trying to learn constantly. 
 
-Oh and I am danish so there might be a spelling mistake somewhere or something that doesnt make sense. If you see it, please do let me know so I can fix it as well. 
+Oh and I am Danish so there might be a spelling mistake somewhere or something that doesnt make sense. If you see it, please do let me know so I can fix it as well. 
 
 I am also new to github so hopefully I wont mess up my very first repository. 
 
