@@ -1,4 +1,0 @@
---download-archive /home/jonas/Documents/GoogleDrive/YoutubeDL/YoutubeArchive.txt
--f "(mp4)[height>=720][height<=1080][fps>=30]+bestaudio[ext=m4a]"
--o "/home/$username/Videos/Youtube/Temp/%(upload_date)s - %(title)s - [%(id)s].%(ext)s"
---add-metadata
