@@ -7,6 +7,6 @@
 #
 --add-metadata
 #
---ffmpeg-location 'C:/Users/Jonas/Videos/Youtube/ffmpeg/bin/ffmpeg.exe'
+--ffmpeg-location 'C:/Users/$username/Videos/Youtube/ffmpeg/bin/ffmpeg.exe'
 #
 --console-title
