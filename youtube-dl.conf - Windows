@@ -1,0 +1,12 @@
+#Tries to get the 60fps 1080p first. Choice of MP4 is because I use my Gear VR enough to use it.
+-f "(mp4)[height>=720][height<=1080][fps>=30]+bestaudio[ext=m4a]"
+#Download archive synced via google drive. I download from 3 different machines depending on how much needs to be downloaded, no need to download it more than once.
+--download-archive F:/GoogleDrive/YoutubeDL/YoutubeArchive.txt
+#Uploaddate for sorting, title for visual representation and ID for Plex to be able to read it (using this agent https://forums.plex.tv/discussion/83106/rel-youtube-metadata-agent)
+-o "F:/Temp/%(upload_date)s - %(title)s - [%(id)s].%(ext)s"
+#
+--add-metadata
+#
+--ffmpeg-location 'C:/Users/Jonas/Videos/Youtube/ffmpeg/bin/ffmpeg.exe'
+#
+--console-title
