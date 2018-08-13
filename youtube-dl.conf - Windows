@@ -1,12 +1,26 @@
-#Tries to get the 60fps 1080p first. Choice of MP4 is because I use my Gear VR enough to use it.
+#Temporary, is usually turned off.
+--ignore-errors
+
+#Tries to get the 60fps 1080p first. 
 -f "(mp4)[height>=720][height<=1080][fps>=30]+bestaudio[ext=m4a]"
+
 #Download archive synced via google drive. I download from 3 different machines depending on how much needs to be downloaded, no need to download it more than once.
---download-archive F:/GoogleDrive/YoutubeDL/YoutubeArchive.txt
+--download-archive "C:\Users\jonas\OneDrive\Youtube-DL\YoutubeArchive.txt"
+
 #Uploaddate for sorting, title for visual representation and ID for Plex to be able to read it (using this agent https://forums.plex.tv/discussion/83106/rel-youtube-metadata-agent)
--o "F:/Temp/%(upload_date)s - %(title)s - [%(id)s].%(ext)s"
-#
+-o "f:/youtube/%(uploader)s/%(upload_date)s - %(title)s - [%(id)s].%(ext)s"
+
+#Not really used in Plex as far as I know but its nice to add details to the file.
 --add-metadata
-#
---ffmpeg-location 'C:/Users/$username/Videos/Youtube/ffmpeg/bin/ffmpeg.exe'
-#
+
+#FFMPEG location, synced on onedrive
+--ffmpeg-location 'C:/Users/jonas/OneDrive/Youtube-DL/ffmpeg/bin/ffmpeg.exe'
+
+#Not too important for the backend. Just nice to see when youre actively looking at the console. 
 --console-title
+
+#Gotta get that direct play. Converts files to MP4.
+--recode-video mp4
+
+#this doesnt work, i probably forgot a setting somewhere.
+--mark-watched
